@@ -1,13 +1,70 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: white;
+  background-color: black;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+span {
+  margin-left: 1.8em;
+  display: flex;
+  text-decoration: none;
+ border: #f2f2f2;
+ font-size: 4em;
+ margin-bottom: 20px;
+ width: 100%;
+ text-align: center;
+ 
+}
+span a {
+  text-decoration: none;
+}
+span.dir :hover {
+  background-color: gray;
+}
+span.dir{
+  margin-bottom: 20px;
+ padding: 20px;
+ text-decoration: none;
+ border: #f2f2f2;
+ width: 70%;
+text-align: center;
+border-radius: 5px 5px 5px;
+border-style: solid;
+padding-left: 200px;
+
+}
+
+/*hover:span.dir {
+  background-image: url(../477264558134-R1-039-18.jpg);
+}
+*/
+.navbar h1 {
+  color: white;
+  font-size: 3em;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: gray;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
 }
